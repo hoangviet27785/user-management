@@ -1,0 +1,1 @@
+export const ROLE_LIST: string[] = ['ROLE_ADMIN', 'ROLE_USER'];

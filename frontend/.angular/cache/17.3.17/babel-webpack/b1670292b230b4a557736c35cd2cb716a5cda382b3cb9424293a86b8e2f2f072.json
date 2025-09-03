@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const ROLE_LIST = ['ROLE_ADMIN', 'ROLE_USER'];","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

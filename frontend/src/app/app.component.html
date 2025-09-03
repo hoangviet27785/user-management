@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">Quản Lý Người Dùng</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" *ngIf="!authService.isLoggedIn">
+          <a class="nav-link" routerLink="/login">Đăng Nhập</a>
+        </li>
+        <li class="nav-item" *ngIf="authService.isLoggedIn">
+          <a class="nav-link" href="#" (click)="logout()">Đăng Xuất | {{ username }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-3">
+  <router-outlet></router-outlet>
+</div>

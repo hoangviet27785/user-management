@@ -1,0 +1,40 @@
+.center-title {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-box {
+  width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  width: 200px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form-row .form-control,
+.form-row .form-select {
+  flex: 1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
