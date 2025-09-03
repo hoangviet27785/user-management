@@ -5,11 +5,7 @@
 - **Backend**: Spring Boot 3.2.4, Spring Security .2.4, JWT 0.11.5, Maven 3.9.9
 - **Frontend**: Angular 17.3.0, Bootstrap 5.3.8, TypeScript 5.2.0
 - **Database**: MySQL 8.0
-- **Build & Run**:
-  - Backend: `Maven`
-  - Frontend: `Node.js`, `npm`
 
----
 
 ## 🚀 Cài đặt & Chạy project
 
